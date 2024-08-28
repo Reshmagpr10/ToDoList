@@ -1,4 +1,4 @@
-@import url("https://uilight.netlify.app/main.css");
+
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 :root {
@@ -21,6 +21,7 @@ body {
   color: var(--text-color-primary);
   text-align: center;
   margin-bottom: 0.5rem;
+  font-size: 3rem;
 }
 
 .input {
@@ -44,6 +45,10 @@ body {
 .btn-primary {
   font-size: 1.25rem;
   padding: 0.5rem 0.875rem;
+  background-color: red;
+  color: var(--text-color-primary);
+  cursor: pointer;
+  border-radius: 10%;
 }
 
 .todo {
@@ -75,4 +80,12 @@ body {
 
 .del-btn {
     color: #f9fafb;
+}
+
+.absolute{
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border: none;
 }
